@@ -1,0 +1,327 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    background-color: rgb(86, 37, 33);
+    max-width: 100%;
+}
+
+.navbar-toggle{
+    background-color: white;
+}
+
+
+
+button {
+    color: white;
+    box-shadow: 0px 0px 2px 0px #888;
+    background-color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+#button {
+    background-color: rgb(226, 198, 52);
+    max-width: 100px;
+    border: 0;
+    border-radius: 4px;
+}
+
+#button a {
+    color: black;
+    font-family: arial;
+    text-decoration: none;
+}
+
+.first {
+    margin-top: 40px;
+    box-sizing: 100%;
+    border: 2px solid rgb(230, 227, 227);
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 0px rgb(86, 37, 33);
+}
+
+#one {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#second {
+    font-size: 25px;
+    padding-top: 3vh;
+}
+
+#para {
+    font-size: 17px;
+    color: rgb(89, 88, 88);
+    line-height: 22px;
+    padding-top: 2vh;
+}
+
+#bot {
+    background-color: rgb(86, 37, 33);
+    border: 0;
+    padding: 2vh;
+    margin: 2vh;
+    border-radius: 4px;
+    width: 130px;
+}
+
+#bot a {
+    color: yellow;
+    font-family: arial;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4vh;
+}
+
+.third-layer {
+    margin-left: 19%;
+    margin-right: 19%;
+    margin-top: 10vh;
+
+}
+
+#ups {
+    background-color: rgb(86, 37, 33);
+    padding: 2vh;
+    border: 0;
+    width: 100%;
+    border-radius: 4px;
+
+}
+
+#ups a {
+    color: yellow;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 25px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    margin-top: 5vh;
+    flex-wrap: wrap;
+}
+.main-point{
+    background-color: #562521;
+    margin-top: 4vh;
+
+}
+
+#mo{
+    color: #e2c634;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.all{
+    color: white;
+    text-align: center;
+}
+
+#rath{
+    color: rgb(226, 198, 52);
+}
+#no{
+    color:rgb(226, 198, 52) ;
+}
+
+#kp a{
+    color: white;
+}
+     #rt{
+        background-color:rgb(226, 198, 52) ;
+        padding: 2vh;
+    }
+    .iko{
+        text-align: center;
+        font-family: arial;
+        font-size: 18px;
+    }
+
+.last{
+    background-color: #fff;
+}
+
+/* The footer */
+
+footer{
+    background-color:#562521;
+}
+
+.end{
+    color: white;
+    text-align: center;
+}
+
+#waya{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 3vh;
+}
+/* .row{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 4vh;
+     white-space: normal;
+    white-space: nowrap;
+    white-space: normal;
+}  */
+
+.col {
+    background-color: #fbfbfb;
+    text-align: center;
+    border: 2px solid grey;
+    height: 400px;
+    overflow-y: auto;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    overflow-clip-margin: 4vh;
+    box-shadow: 1px 1px 5px 5px rgb(204, 201, 201);
+    border: 0;
+    border-radius: 20px;
+
+
+}
+
+.col p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-weight: 40px;
+
+}
+#main{
+    color: #60322f;
+}
+
+.iconic{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    font-size: 24px;
+}
+
+
+
+/* .col-2{
+    text-align: center;
+    border: 2px solid grey;
+    line-height: 20px;
+    height: 400px; 
+   
+   
+} */
+
+
+/* .col-3{
+    text-align: center;
+    border: 2px solid grey;
+ line-height: 20px;
+    height: 400px;
+   
+} */
+
+
+@media only screen and (max-width: 500px) {
+
+
+    .first {
+        margin-left: auto;
+
+    }
+
+    .col {
+        overflow-y: scroll;
+    }
+
+
+    img {
+        width: 29px;
+        display: none;
+    }
+
+    .navbar {
+        max-width: 1000px;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .first {
+        margin-left: auto;
+
+    }
+
+    .col {
+        overflow-y: scroll;
+
+    }
+
+    .navbar-brand{
+        display: block;
+    }
+
+
+
+    img {
+        width: 29px;
+        display: none;
+    }
+
+    .navbar {
+        max-width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 728px) {
+
+
+    .first {
+        margin-left: auto;
+
+    }
+
+    .col {
+        overflow-y: scroll;
+    }
+
+
+    img {
+        width: 29px;
+        display: none;
+    }
+
+    .navbar {
+        max-width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+}
