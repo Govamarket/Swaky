@@ -42,22 +42,29 @@ button {
 }
 
 .first {
-    margin-top: 40px;
+    margin-top: 20px;
     box-sizing: border-box;
     border: 2px solid rgb(230, 227, 227);
     border: 0;
     border-radius: 10px;
     box-shadow: 1px 2px 2px 0px rgb(86, 37, 33);
+    max-height: 500px;
+    width: 400px;
+    margin: 0;
+    padding: 0;
 }
 
 #one {
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-break: auto;
+    padding-left: 10px;
 }
 
 #second {
     font-size: 25px;
-    padding-top: 3vh;
+    padding-top: 0.6vh;
+    padding-left: 10px;
 }
 
 #para {
@@ -73,13 +80,16 @@ button {
     padding: 2vh;
     margin: 2vh;
     border-radius: 4px;
-    width: 130px;
+    width: 200px;
 }
+
 
 #bot a {
     color: yellow;
-    font-family: arial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
+    font-weight: 100px;
+
 }
 
 .header {
@@ -206,7 +216,12 @@ footer {
 
 }
 
-.h{
+li{
+    display: inline-block;
+}
+
+.h {
+    display: block;
     background-color: #fbfbfb;
     text-align: center;
     border: 2px solid grey;
@@ -273,7 +288,7 @@ footer {
         box-sizing: border-box;
     }
     .first {
-        margin-left: auto;
+        /* margin-left: auto; */
 
     }
 
@@ -310,7 +325,7 @@ body{
     box-sizing: border-box;
 }
         .first {
-            margin-left: auto;
+            /* margin-left: auto; */
 
         }
 
@@ -353,7 +368,7 @@ body{
         }
 
         .first {
-            margin-left: auto;
+            /* margin-left: auto; */
 
         }
 
