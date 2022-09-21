@@ -108,7 +108,7 @@ button {
 
 #ups {
     background-color: rgb(86, 37, 33);
-    padding: 2vh;
+    padding: 1.4vh;
     border: 0;
     width: 100%;
     border-radius: 4px;
@@ -126,12 +126,14 @@ align-items: center;
 
 
 #mo {
+    padding-top: 3vh;
     color: #e2c634;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .all {
+    display: block;
     color: white;
     text-align: center;
 }
@@ -154,6 +156,7 @@ align-items: center;
 }
 
 .iko {
+    display: block;
     text-align: center;
     font-family: arial;
     font-size: 18px;
@@ -171,6 +174,7 @@ footer {
 }
 
 .end {
+    display: block;
     color: white;
     text-align: center;
 }
@@ -183,6 +187,7 @@ footer {
 }
 
 #waya {
+    font-size: 26px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-top: 3vh;
@@ -203,7 +208,7 @@ footer {
 }  */
 
 
-.container {
+.w3-row-padding {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -217,39 +222,25 @@ footer {
 
 }
 
+.w3-third{
+    border: 2px solid white;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px 2px rgb(206, 202, 202);
+}
+
 li{
     display: inline-block;
 }
 
-.h {
-    display: block;
-    background-color: #fbfbfb;
-    text-align: center;
-    border: 2px solid grey;
-    height: 370px;
-    /* overflow-y: auto; */
-    overflow: hidden;
-    overflow-wrap: break-word;
-    overflow-clip-margin: 4vh;
-    box-shadow: 1px 1px 5px 5px rgb(204, 201, 201);
-    border: 0;
-    border-radius: 20px;
-    width: 70%;
-    overflow-y: auto;
-
-}
 
 
 
-.h p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
-    font-weight: 40px;
 
-}
+
 
 #main {
     color: #60322f; 
+    text-align: center;
 }
 
 .iconic {
@@ -257,6 +248,10 @@ li{
     justify-content: center;
     gap: 1em;
     font-size: 24px;
+}
+
+.iconic a{
+    color: white;
 }
 
 
@@ -287,9 +282,11 @@ li{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        overflow: auto;
+        cursor: pointer;
     }
     .first {
-        margin-right: auto;
+        display: block;
 
     }
 
@@ -310,10 +307,7 @@ li{
     text-align: center;
     }
 
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-    }
+    
 }
 
 
@@ -326,14 +320,13 @@ body{
     box-sizing: border-box;
 }
         .first {
-            margin-right: auto;
+            display: block;
+            width: 80%;
+            height: auto;
 
         }
 
-        .h{
-            overflow-y: scroll;
-
-        }
+       
 
         #kp{
             margin-right: auto;
@@ -369,13 +362,12 @@ body{
         }
 
         .first {
-            margin-right: auto;
+            display: block;
+            height: auto;
 
         }
 
-        .h {
-            overflow-y: scroll;
-        }
+       
 
         #kp{
             margin-left: auto;
