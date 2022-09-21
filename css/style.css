@@ -1,12 +1,19 @@
-*{
+* {
     box-sizing: border-box;
-    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
 }
 
 
 .navbar {
     background-color: rgb(86, 37, 33);
     max-width: 100%;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -94,7 +101,7 @@ button {
     border: 0;
     width: 100%;
     border-radius: 4px;
-
+align-items: center;
 }
 
 #ups a {
@@ -102,71 +109,69 @@ button {
     text-decoration: none;
     font-family: arial;
     font-size: 25px;
+    align-items: center;
 }
 
 
-.container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2em;
-    margin-top: 5vh;
-}
 
-.main-point{
-    background-color: #562521;
-    margin-top: 4vh;
-
-}
-
-#mo{
+#mo {
     color: #e2c634;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.all{
+.all {
     color: white;
     text-align: center;
 }
 
-#rath{
+#rath {
     color: rgb(226, 198, 52);
 }
-#no{
-    color:rgb(226, 198, 52) ;
+
+#no {
+    color: rgb(226, 198, 52);
 }
 
-#kp a{
+#kp a {
     color: white;
 }
-     #rt{
-        background-color:rgb(226, 198, 52) ;
-        padding: 2vh;
-    }
-    .iko{
-        text-align: center;
-        font-family: arial;
-        font-size: 18px;
-    }
 
-.last{
+#rt {
+    background-color: rgb(226, 198, 52);
+    padding: 2vh;
+}
+
+.iko {
+    text-align: center;
+    font-family: arial;
+    font-size: 18px;
+}
+
+.last {
     background-color: #fff;
 }
 
 /* The footer */
 
-footer{
-    background-color:#562521;
+footer {
+    background-color: #562521;
     box-sizing: border-box;
 }
 
-.end{
+.end {
     color: white;
     text-align: center;
 }
 
-#waya{
+#meg{
+    font-size: 27px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 40px;
+    font-weight: 50px;
+}
+
+#waya {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-top: 3vh;
@@ -186,35 +191,52 @@ footer{
     white-space: normal;
 }  */
 
-.col {
-    background-color: #fbfbfb;
-    text-align: center;
-    border: 2px solid grey;
-    height: 400px;
-    /* overflow-y: auto;
-    overflow: hidden; */
-    overflow-wrap: break-word;
-    /* overflow-clip-margin: 4vh; */
-    box-shadow: 1px 1px 5px 5px rgb(204, 201, 201);
-    border: 0;
-    border-radius: 20px;
-    white-space: normal;
-    white-space: nowrap;
-width: 20%;
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.4em;
+    margin-top: 5vh;
+}
+
+.main-point {
+    background-color: #562521;
+    margin-top: 4vh;
 
 }
 
-.col p {
+.h{
+    background-color: #fbfbfb;
+    text-align: center;
+    border: 2px solid grey;
+    height: 370px;
+    /* overflow-y: auto; */
+    overflow: hidden;
+    overflow-wrap: break-word;
+    overflow-clip-margin: 4vh;
+    box-shadow: 1px 1px 5px 5px rgb(204, 201, 201);
+    border: 0;
+    border-radius: 20px;
+    width: 70%;
+    overflow-y: auto;
+
+}
+
+
+
+.h p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
     font-weight: 40px;
 
 }
-#main{
-    color: #60322f;
+
+#main {
+    color: #60322f; 
 }
 
-.iconic{
+.iconic {
     display: flex;
     justify-content: center;
     gap: 1em;
@@ -245,6 +267,11 @@ width: 20%;
 @media only screen and (max-width: 500px) {
 
 
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     .first {
         margin-left: auto;
 
@@ -263,82 +290,113 @@ width: 20%;
     .navbar {
         max-width: 1000px;
     }
-
-.container{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-
-@media only screen and (max-width: 600px) {
-
-
-    .first {
-        margin-left: auto;
-
+    #kp{
+    text-align: center;
     }
 
-    .col {
-        overflow-y: scroll;
-
-    }
-
-    .navbar-brand{
-        display: block;
-    }
-
-
-
-    img {
-        width: 29px;
-        display: none;
-    }
-
-    .navbar {
-        max-width: 1000px;
-    }
-
-    .container{
+    .container {
         display: flex;
         flex-wrap: wrap;
     }
 }
 
-@media only screen and (max-width: 728px) {
 
 
-    .first {
-        margin-left: auto;
+    @media only screen and (max-width: 600px) {
 
-    }
-
-    .col {
-        overflow-y: scroll;
-    }
-
-
-    img {
-        width: 29px;
-        display: none;
-    }
-
-    .navbar {
-        max-width: 1000px;
-    }
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+        .first {
+            margin-left: auto;
 
-@media only screen and (max-width: 390px) {
-    .header {
-        display: flex;
-        flex-wrap: wrap;
+        }
+
+        .h{
+            overflow-y: scroll;
+
+        }
+
+        #kp{
+            margin-left: auto;
+        }
+
+        .navbar-brand {
+            display: block;
+        }
+
+
+
+        img {
+            width: 29px;
+            display: none;
+        }
+
+        .navbar {
+            max-width: 1000px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
     }
 
-    .navbar {
-        width: 100%;
+    @media only screen and (max-width: 728px) {
+
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .first {
+            margin-left: auto;
+
+        }
+
+        .h {
+            overflow-y: scroll;
+        }
+
+        #kp{
+            margin-left: auto;
+        }
+
+
+        img {
+            width: 29px;
+            display: none;
+        }
+
+        .navbar {
+            max-width: 1000px;
+        }
     }
-    .container{
-        display: flex;
-        flex-wrap: wrap;
+
+    @media only screen and (max-width: 390px) {
+        .header {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            width: 100%;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #kp{
+            margin-left: auto;
+        }
     }
-} 
