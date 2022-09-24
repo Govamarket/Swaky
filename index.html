@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css">
-    <script defer src="/js/main.js"></script>
+    <!-- <script defer src="/js/main.js"></script> -->
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -16,86 +16,96 @@
 
 <body>
     <!-- Responsive NavBar -->
-    <nav class="navbar  navbar-expand-sm">
+    <nav class="navbar  navbar-expand-sm" style="width: 100%;">
         <div class="container"> <a href="#" class="navbar-brand"><img src="img/image 20.png"
                     style="width: 70px; display: block;"></a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#idNav"><span
-                    class="navbar-toggler-icon" style="display: block; background-color: white; border-radius: 40px;color: aliceblue;"></span></button>
+                    class="navbar-toggler-icon"
+                    style="display: block; background-color: white; border-radius: 40px;color: aliceblue;"></span></button>
             <div class="collapse navbar-collapse" id="idNav">
                 <ul class="navbar-nav ml-auto" style="gap: 2em;">
                     <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="about.html" target="_self" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="https://twitter.com/swacky_jnr" target="_parent" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="https://twitter.com/swacky_jnr" target="_parent"
+                            class="nav-link">Services</a></li>
                     <li class="nav-item"><a href="https://twitter.com/swacky_jnr" class="nav-link">Contact</a></li>
-                    <button id="button" type="button"><a href="https://www.pinterest.com/" target="_self">Learn more</a></button>
+                    <button id="button" type="button"><a href="https://www.pinterest.com/" target="_self">Learn
+                            more</a></button>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Header layer -->
-    <div class="header">
-        <section class="first">
-            <h1 id="one">The VIP Expreience</h1>
-            <h4 id="second">A New Exprience For Every GDC Participant</h4>
-            <p id="para">Filled with lots of bonuses, freebles and resoures you can use to fast track <br> your design
-                career even if you have taken lots of courses that didn't get you <br>results</p>
-            <button id="bot" type="button"><a href="">Learn more</a></button>
+    <div id="header">
+        <section class="container-fluid">
+            <section id="row">
+                <h1 id="display-1">The VIP Expreience</h1>
+                <h2 id="second">A New Exprience For Every GDC Participant</h2>
+                <p id="para">Filled with lots of bonuses, freebles and resoures you can use to fast track <br> your
+                    design
+                    career even if you have taken lots of courses that didn't get you <br>results</p>
+                <button id="bot" type="button"><a href="">Learn more</a></button>
+            </section>
         </section>
+
 
         <section id="img">
             <img src="img/image 19.png" style="max-width: 300px;">
         </section>
     </div>
+    <div class="container-fluid">
 
-    <div class="third-layer">
-        <button id="ups" type="button"><a href="">VIP values and offers</a></button>
-    </div>
 
-    <!-- forth layer of the three categories -->
-    <div class="w3-row-padding">
-
-        <section class="w3-third">
-            <section class="w3">
-                <h4 id="main">Personal Guest Reviewer For <br>Each Participant</h4>
-                <p>From the moment you get into the VIP, you will be <br>assigned a personal reviewer,</p> <br>
-                <p>This means all your designs will get a second eye to <br>constructively given you feedback on
-                    what to do and <br>what not to do</p> <br>
-                <p>It even gets more interesting when you find out that <br>this reviews will be live reviews.</p>
-                <br>
-                <p>It's no more a case of dropping comments on your <br>designs which you may or may not read</p>
-            </section>
-        </section>
-
-        <div class="w3-third">
-        
-            <section class="klo">
-                <h4 id="main">VIP group for Each Design <br>Category</h4>
-                <p>This means tou don't have to struggle to fit in, you <br>will be in a group where everyone is
-                    just on
-                    the same <br>path as you.</p> <br>
-                <p>There will be VIP groups for Logo, Flyer and UI/UX.</p> <br>
-                <p>This will make your learning and netwirking process <br>much easier and fun</p>
-            </section>
+        <div class="third-layer">
+            <button id="ups" type="button"><a href=""><p> VIP values and offers</p></a></button>
         </div>
 
-        <div class="w3-third">
-            <section class="kilo">
-                <h4 id="main">The Ultimate Designers <br>Roadmap</h4>
-                <p>As a VIP member, you are entitle to the U ltimate <br>Designers Roadmap</p> <br>
-                <p>A <kbd>pdf</kbd>text based guide that directs you on the path <br> to follow to scale as a
-                    designer.</p> <br>
-                <p>It's concise and easy to read and it takes not more <br>than 30 mins to finish</p>
-            </section>
-        </div>
+        <!-- forth layer of the three categories -->
+        <div class="row">
 
+            <section class="col-sm-3">
+                <section class="w3">
+                    <h4 id="main">Personal Guest Reviewer For <br>Each Participant</h4>
+                    <p>From the moment you get into the VIP, you will be <br>assigned a personal reviewer,</p> <br>
+                    <p>This means all your designs will get a second eye to <br>constructively given you feedback on
+                        what to do and <br>what not to do</p> <br>
+                    <p>It even gets more interesting when you find out that <br>this reviews will be live reviews.</p>
+                    <br>
+                    <p>It's no more a case of dropping comments on your <br>designs which you may or may not read</p>
+                </section>
+            </section>
+
+            <div class="col-sm-3">
+
+                <section class="klo">
+                    <h4 id="main">VIP group for Each Design <br>Category</h4>
+                    <p>This means tou don't have to struggle to fit in, you <br>will be in a group where everyone is
+                        just on
+                        the same <br>path as you.</p> <br>
+                    <p>There will be VIP groups for Logo, Flyer and UI/UX.</p> <br>
+                    <p>This will make your learning and netwirking process <br>much easier and fun</p>
+                </section>
+            </div>
+
+            <div class="col-sm-3">
+                <section class="kilo">
+                    <h4 id="main">The Ultimate Designers <br>Roadmap</h4>
+                    <p>As a VIP member, you are entitle to the U ltimate <br>Designers Roadmap</p> <br>
+                    <p>A <kbd>pdf</kbd>text based guide that directs you on the path <br> to follow to scale as a
+                        designer.</p> <br>
+                    <p>It's concise and easy to read and it takes not more <br>than 30 mins to finish</p>
+                </section>
+            </div>
+
+        </div>
     </div>
 
     <!-- End of the w-3 series of the forth layer -->
 
     <!-- Another layer converk -->
-    <div class="main-point">
-        <h1 id="mo">How do you become a VIP member?</h1>
+    <div id="container-fluid">
+        <h2 id="mo">How do you become a VIP member?</h2>
         <section class="all">
             <p>Before now, getting into the VIP Package cost only $3000. And if you are honest to yourself you will
                 agree that this is unbelievably cheap <br> considering everything you get as a VIP member. And now that
@@ -128,7 +138,8 @@
                 <li>And an opportunity to win a <span id="no">cash price</span>for beign part of the VIP</li> <br><br>
             </section>
 
-            <h5 id="kp"><a href="https://twitter.com/swacky_jnr" target="_top">https://ultimateroadmap.selar.co/46xb</a></h5> <br>
+            <h5 id="kp"><a href="https://twitter.com/swacky_jnr" target="_top">https://ultimateroadmap.selar.co/46xb</a>
+            </h5> <br>
             <hr id="rt"> <br><br>
             <h2><span id="meg">A 15 days Ironclad Money-back guarantee</span></h2>
             </p>
@@ -136,7 +147,7 @@
         </section>
     </div>
 
-    <div class="last">
+    <div class="container-fluid">
         <section class="iko">
             <p>If after 15 days of joining the challenges as a VIP member and you feel at any point that you're not
                 getting value <br> for your money,</p><br>
@@ -148,9 +159,10 @@
     </div>
 
     <footer>
-        <section class="end">
-            <h1 id="waya">Waya Room of Designers</h1>
-            <p>Waya Developer is a blog website where you will find great tutorials on web <br>design and development.
+        <section class="container-fluid">
+            <h4 id="waya">Waya Room of Designers</h4>
+            <p id="pp">Waya Developer is a blog website where you will find great tutorials on web <br>design and
+                development.
                 Here each tutorial is beautifully describe step by step <br>with the required source code.</p>
             <section class="iconic">
                 <a href="https://twitter.com/swacky_jnr"> <i class="fa-brands fa-facebook"></i></a>
